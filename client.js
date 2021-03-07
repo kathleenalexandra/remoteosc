@@ -36,7 +36,7 @@ function listenForS() {
 
 
 function openPort() {
-  console.log("port is openened"); 
+  console.log("port is open"); 
   udpPort = new osc.UDPPort({
       localAddress: "127.0.0.1",
       localPort: 57121,
